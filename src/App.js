@@ -1,5 +1,9 @@
 import React from "react";
+//navigator
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+//front-end framework
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 //all pages navigation
 import Home from "./Pages/Home";
 import Destaques from "./Pages/Destaques.js";
