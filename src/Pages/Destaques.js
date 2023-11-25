@@ -1,7 +1,14 @@
 import React from "react";
+//components
+import Header from "../components/Header";
 
 function Destaques() {
-  return <h1>Destaques</h1>;
+  return (
+    <>
+      <Header />
+      <h1>Destaques</h1>
+    </>
+  );
 }
 
 export default Destaques;

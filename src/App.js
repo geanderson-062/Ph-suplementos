@@ -9,7 +9,6 @@ import Home from "./Pages/Home";
 import Destaques from "./Pages/Destaques.js";
 import Estoque from "./Pages/Estoque.js";
 import Promocao from "./Pages/Promocao.js";
-import Contato from "./Pages/Contato.js";
 import Licenca from "./Pages/Licenca.js";
 
 function App() {
@@ -22,7 +21,7 @@ function App() {
           <Route path="/Estoque" element={<Estoque />} />
           <Route path="/Promocao" element={<Promocao />} />
           <Route path="/Licenca" element={<Licenca />} />
-          <Route path="/Contato" element={<Contato />} />
+          
         </Routes>
       </div>
     </Router>
