@@ -6,7 +6,9 @@ function Licenca() {
   return (
     <>
       <Header />
-      <h1>Licenca</h1>
+      <h1 className="fs-1 text-center" style={{ paddingTop: "100px" }}>
+        Licença
+      </h1>
     </>
   );
 }

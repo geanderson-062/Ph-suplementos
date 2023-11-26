@@ -6,7 +6,9 @@ function Estoque() {
   return (
     <>
       <Header />
-      <h1>Estoque</h1>
+      <h1 className="fs-1 text-center" style={{ paddingTop: "100px" }}>
+        Estoque
+      </h1>
     </>
   );
 }
