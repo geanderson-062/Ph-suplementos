@@ -13,7 +13,7 @@ function Header() {
     <>
       <nav className="navbar navbar-expand-lg PrimaryColor fixed-top">
         <div className="container-fluid">
-          <Link to="/" className="navbar-brand fs-4 text-white" href="0">
+          <Link to="/" className="navbar-brand fs-4 text-white">
             <img src={ImgHeader} alt="Bootstrap" width="40" height="40"></img>
             Ph Suplementos
           </Link>
@@ -90,27 +90,29 @@ function Header() {
                   </a>
                   <ul className="dropdown-menu">
                     <li>
-                      <a className="dropdown-item" href="0">
-                        Whey
-                      </a>
+                      <Link to="/Whey" className="dropdown-item">
+                        Whey Protein
+                      </Link>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="0">
-                        Creatina
-                      </a>
+                      <Link to="/Creatina" className="dropdown-item">
+                        Creatinas
+                      </Link>
                     </li>
                     <li>
-                      <hr className="dropdown-divider" />
+                      <Link to="/Hypercaloric" className="dropdown-item">
+                        Hypercalóricos
+                      </Link>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="0">
-                        Colageno
-                      </a>
-                    </li>
-                    <li>
-                      <a className="dropdown-item" href="0">
+                      <Link to="/Termogenico" className="dropdown-item">
                         Termogênicos
-                      </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/Preworkout" className="dropdown-item">
+                        Pré-treinos
+                      </Link>
                     </li>
                   </ul>
                 </li>

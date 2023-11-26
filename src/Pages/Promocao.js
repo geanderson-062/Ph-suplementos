@@ -1,12 +1,13 @@
 import React from "react";
 //components
 import Header from "../components/Header";
+import TitlePromocao from "../components/TItles/PageTitlePromocao";
 
 function Promocao() {
   return (
     <>
       <Header />
-      <h1>Promocao</h1>
+      <TitlePromocao />
     </>
   );
 }

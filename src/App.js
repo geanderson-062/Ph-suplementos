@@ -10,6 +10,11 @@ import Destaques from "./Pages/Destaques.js";
 import Estoque from "./Pages/Estoque.js";
 import Promocao from "./Pages/Promocao.js";
 import Licenca from "./Pages/Licenca.js";
+import Preworkout from "./Pages/Preworkout.js";
+import Hypercaloric from "./Pages/Hypercaloric.js";
+import Termogenico from "./Pages/Termogenico.js";
+import Creatina from "./Pages/Creatina.js";
+import Whey from "./Pages/Whey.js";
 
 function App() {
   return (
@@ -21,7 +26,11 @@ function App() {
           <Route path="/Estoque" element={<Estoque />} />
           <Route path="/Promocao" element={<Promocao />} />
           <Route path="/Licenca" element={<Licenca />} />
-          
+          <Route path="/Preworkout" element={<Preworkout />} />
+          <Route path="/Hypercaloric" element={<Hypercaloric />} />
+          <Route path="/Termogenico" element={<Termogenico />} />
+          <Route path="/Creatina" element={<Creatina />} />
+          <Route path="/Whey" element={<Whey />} />
         </Routes>
       </div>
     </Router>

@@ -1,14 +1,14 @@
 // Navigation.js
 import React from "react";
-import { Link } from "react-router-dom";
 //components
 import Header from "../components/Header";
+import TitleHome from "../components/TItles/PageTitleHome";
 
 function Home() {
   return (
     <>
       <Header />
-      <h1>Page Home</h1>
+      <TitleHome />
     </>
   );
 }
