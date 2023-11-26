@@ -1,5 +1,13 @@
-.price {
-  line-height: 1;
+.card {
+  cursor: pointer;
+}
+
+.card:hover {
+  outline: 2px solid #103f79;
+}
+
+.line-height {
+  line-height: 1.1;
 }
 
 .cashPrice {
@@ -9,5 +17,12 @@
 .installmentPrice {
   font-size: 14px;
   font-weight: bold;
-  line-height: 1.2;
+}
+
+.zoom-image {
+  transition: transform 0.3s ease-in-out;
+}
+
+.zoom-image:hover {
+  transform: scale(1.2);
 }

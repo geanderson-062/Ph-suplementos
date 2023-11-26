@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./style.css"; // Certifique-se de importar seu arquivo de estilo, se necessário
+import "./style.css";
 
 const Card = ({
   productName,
@@ -12,17 +12,21 @@ const Card = ({
   return (
     <div className="container mt-5">
       <div className="card" style={{ width: "18rem" }}>
-        <img src={imageUrl} className="card-img-top" alt={productName} />
+        <img
+          src={imageUrl}
+          className="card-img-top zoom-image"
+          alt={productName}
+        />
         <div className="card-body">
           <h5 className="card-title pb-3 mb-0">{productName}</h5>
           <div className="d-flex flex-md-row justify-content-between border-top pt-3">
-            <div className="col-md-6 d-flex flex-column align-items-start price">
+            <div className="col-md-6 d-flex flex-column align-items-start line-height">
               <p className="card-text text-decoration-line-through text-black-50 mb-0">
-                {originalPrice}
+                R$ {originalPrice}
               </p>
               <p className="card-text font-weight-bold d-inline text-black-50">
                 <strong className="text-success d-inline">
-                  {discountPrice}
+                  R$ {discountPrice}
                 </strong>{" "}
                 à vista
               </p>
