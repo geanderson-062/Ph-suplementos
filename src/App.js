@@ -21,7 +21,6 @@ function App() {
           <Route path="/Estoque" element={<Estoque />} />
           <Route path="/Promocao" element={<Promocao />} />
           <Route path="/Licenca" element={<Licenca />} />
-          
         </Routes>
       </div>
     </Router>

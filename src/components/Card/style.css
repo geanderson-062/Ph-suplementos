@@ -1,0 +1,13 @@
+.price {
+  line-height: 1;
+}
+
+.cashPrice {
+  font-size: 22px;
+}
+
+.installmentPrice {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.2;
+}
