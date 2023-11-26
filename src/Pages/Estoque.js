@@ -1,7 +1,11 @@
 import React from "react";
 //components
 import Header from "../components/Header";
+
 import Card from "../components/Card";
+
+import TitleEstoque from "../components/TItles/PageTitleEstoque";
+
 
 function Estoque() {
   const productData = {
@@ -22,12 +26,16 @@ function Estoque() {
   return (
     <>
       <Header />
+
       <h1 className="fs-1 text-center" style={{ paddingTop: "100px" }}>
         Estoque
       </h1>
 
       {/* to view the component Card remove the comments */}
       {/*<Card {...productData} />*/}
+
+      <TitleEstoque />
+
     </>
   );
 }
