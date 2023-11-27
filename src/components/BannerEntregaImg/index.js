@@ -38,12 +38,7 @@ export default class Index extends Component {
               alt="Mobile Banner"
             />
           ) : (
-            <img
-              src={ImgBannerEntrega}
-              className="img-fluid"
-              alt="Banner"
-              style={{ maxWidth: "120%", maxHeight: "120%" }}
-            />
+            <img src={ImgBannerEntrega} className="img-fluid" alt="Banner" />
           )}
         </div>
       </>
