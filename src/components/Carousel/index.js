@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import ImgBannerEntrega from "../../assets/ImgBanner/BannerEntrega.png";
-import ImgBannerPerformance from "../../assets/ImgBanner/BannerPerformance.png";
+import ImgBannerEntrega from "../BannerEntregaImg";
+import ImgBannerPerformance from "../BannerPerformanceImg";
 
 export default class Index extends Component {
   render() {
@@ -13,14 +13,10 @@ export default class Index extends Component {
       >
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={ImgBannerEntrega} className="d-block w-100" alt="..." />
+            <ImgBannerEntrega />
           </div>
           <div className="carousel-item">
-            <img
-              src={ImgBannerPerformance}
-              className="d-block w-100"
-              alt="..."
-            />
+            <ImgBannerPerformance />
           </div>
         </div>
         <button
