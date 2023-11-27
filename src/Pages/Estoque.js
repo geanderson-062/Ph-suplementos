@@ -6,7 +6,6 @@ import Card from "../components/Card";
 
 import TitleEstoque from "../components/TItles/PageTitleEstoque";
 
-
 function Estoque() {
   const productData = {
     productName: "CREATINA HARDCORE - INTEGRALMÉDICA",
@@ -26,16 +25,9 @@ function Estoque() {
   return (
     <>
       <Header />
-
-      <h1 className="fs-1 text-center" style={{ paddingTop: "100px" }}>
-        Estoque
-      </h1>
-
-      {/* to view the component Card remove the comments */}
-      {/*<Card {...productData} />*/}
-
       <TitleEstoque />
-
+      {/* to view the component Card remove the comments */}
+      <Card {...productData} />
     </>
   );
 }

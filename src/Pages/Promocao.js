@@ -7,13 +7,7 @@ function Promocao() {
   return (
     <>
       <Header />
-
-      <h1 className="fs-1 text-center" style={{ paddingTop: "100px" }}>
-        Promoção
-      </h1>
-
       <TitlePromocao />
-
     </>
   );
 }
