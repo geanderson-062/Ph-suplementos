@@ -7,10 +7,6 @@ function Destaques() {
   return (
     <>
       <Header />
-
-      <h1 className="fs-1 text-center" style={{ paddingTop: "100px" }}>
-        Destaques
-      </h1>
       <TitleDestaques />
     </>
   );
