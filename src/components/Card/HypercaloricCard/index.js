@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./style.css";
-import ProducsData from "../../service/Estoque";
+import ProducsData from "../../../service/Hypercaloric";
 
 const ProductList = () => {
   return (
@@ -15,13 +15,14 @@ const ProductList = () => {
               alt={product.title}
             />
             <div class="card-body">
-              <h5 class="card-title">{product.title}</h5>
+              <h5 class="card-title -f3">{product.title}</h5>
+              <h6 class="card-title fs-6">{product.description}</h6>
               <p className="card-text text-decoration-line-through text-black-50 mb-0">
-                R$ {product.priceWithoutDiscount}
+                ${product.priceWithoutDiscount}
               </p>
               <p className="card-text font-weight-bold d-inline text-black-50">
                 <strong className="text-success d-inline">
-                  R$ {product.discountPrice}
+                  ${product.discountPrice}
                 </strong>{" "}
                 à vista
               </p>
