@@ -11,6 +11,10 @@ import TitleDestaques from "../components/TItles/PageTitleDestaques";
 import CardPromocao from "../components/Card/PromocaoCard";
 import CardDestaques from "../components/Card/DestaqueCard";
 import CardMaisVendido from "../components/Card/MaisVendidoCard";
+//buttons
+import ButtonDestaque from "../components/Buttons/ButtonDestaque";
+import ButtonPromocao from "../components/Buttons/ButtonPromocao";
+import ButtonMaisVendido from "../components/Buttons/ButtonMaisVendido";
 
 function Home() {
   return (
@@ -20,10 +24,13 @@ function Home() {
       <section className="container">
         <TitlePromocao />
         <CardPromocao />
+        <ButtonPromocao />
         <TitleMaisVendido />
         <CardMaisVendido />
+        <ButtonMaisVendido />
         <TitleDestaques />
         <CardDestaques />
+        <ButtonDestaque />
       </section>
     </>
   );

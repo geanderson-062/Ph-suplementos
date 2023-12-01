@@ -1,14 +1,14 @@
 import React from "react";
 //components
 import Header from "../components/Header";
-import TitlePromocao from "../components/TItles/PageTitlePromocao";
-import Card from "../components/Card/PromocaoCard";
+import TitleMaisVendido from "../components/TItles/PageTitleMaisVendido";
+import Card from "../components/Card/MaisVendidoCard";
 
-function Promocao() {
+function Preworkout() {
   return (
     <>
       <Header />
-      <TitlePromocao />
+      <TitleMaisVendido />
       <section className="container">
         <Card />
       </section>
@@ -16,4 +16,4 @@ function Promocao() {
   );
 }
 
-export default Promocao;
+export default Preworkout;
