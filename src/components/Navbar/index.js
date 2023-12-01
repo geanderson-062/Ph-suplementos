@@ -114,6 +114,14 @@ function Header() {
                         Pré-treinos
                       </Link>
                     </li>
+                    <li>
+                      <div className="dropdown-divider" />
+                    </li>
+                    <li>
+                      <Link to="/Estoque" className="dropdown-item">
+                        Todo estoque
+                      </Link>
+                    </li>
                   </ul>
                 </li>
                 <li className="nav-item">
