@@ -1,7 +1,6 @@
 import React from "react";
 //components
 import Header from "../components/Header";
-import Card from "../components/Card";
 import TitleEstoque from "../components/TItles/PageTitleEstoque";
 //card section
 import CreatinaCard from "../components/Card/CreatinaCard";
@@ -32,7 +31,6 @@ function Estoque() {
         <TermogenicoCard />
         <TitleWhey />
         <WheyCard />
-        <Card />
       </section>
     </>
   );
