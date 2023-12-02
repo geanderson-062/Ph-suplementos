@@ -1,5 +1,5 @@
-// Navigation.js
-import React from "react";
+import React, { useEffect } from "react";
+import ScrollReveal from "scrollreveal";
 //components
 import Header from "../components/Header";
 import ProductCard from "../components/Card/ProductCard";
@@ -18,11 +18,30 @@ import ProducsDataDestaques from "../service/SeparatePage/Destaque";
 import ProducsDataPromocao from "../service/SeparatePage/Promocao";
 
 function Home() {
+  useEffect(() => {
+    ScrollReveal().reveal(".button", {
+      duration: 1000,
+      origin: "bottom",
+      distance: "20px",
+      easing: "ease-in-out",
+    });
+  }, []);
+  useEffect(() => {
+    ScrollReveal().reveal(".title", {
+      duration: 1000,
+      origin: "right",
+      distance: "20px",
+      easing: "ease-in-out",
+    });
+  }, []);
+
   return (
     <>
       <Header />
       <section className="container">
-        <TitlePromocao />
+        <div className="title">
+          <TitlePromocao />
+        </div>
         <div
           className="row row-cols-1 row-cols-md-4 g-4"
           style={{ marginTop: 50, marginLeft: "5%", marginRight: "5%" }}
@@ -40,8 +59,12 @@ function Home() {
             );
           })}
         </div>
-        <ButtonPromocao />
-        <TitleMaisVendido />
+        <div className="button">
+          <ButtonPromocao />
+        </div>
+        <div className="title">
+          <TitleMaisVendido />
+        </div>
         <div
           className="row row-cols-1 row-cols-md-4 g-4"
           style={{ marginTop: 50, marginLeft: "5%", marginRight: "5%" }}
@@ -59,8 +82,12 @@ function Home() {
             );
           })}
         </div>
-        <ButtonMaisVendido />
-        <TitleDestaques />
+        <div className="button">
+          <ButtonMaisVendido />
+        </div>
+        <div className="title">
+          <TitleDestaques />
+        </div>
         <div
           className="row row-cols-1 row-cols-md-4 g-4"
           style={{ marginTop: 50, marginLeft: "5%", marginRight: "5%" }}
@@ -78,7 +105,9 @@ function Home() {
             );
           })}
         </div>
-        <ButtonDestaque />
+        <div className="button">
+          <ButtonDestaque />
+        </div>
       </section>
     </>
   );
