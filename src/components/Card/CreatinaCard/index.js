@@ -56,7 +56,13 @@ const ProductList = () => {
                 <a
                   {...Contato}
                   className="btn btn-dark rounded-pill"
-                  style={{ width: 200, marginBottom: 10 }}
+                  style={{
+                    width: 200,
+                    marginBottom: 10,
+                    borderColor: "#024BB1",
+                    borderStyle: "solid",
+                    borderWidth: "3px",
+                  }}
                   type="button"
                 >
                   Comprar
