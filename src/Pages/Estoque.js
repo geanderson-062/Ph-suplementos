@@ -2,18 +2,10 @@ import React from "react";
 //components
 import Header from "../components/Header";
 import TitleEstoque from "../components/TItles/PageTitleEstoque";
-//card section
-import CreatinaCard from "../components/Card/CreatinaCard";
-import HypercaloricCard from "../components/Card/HypercaloricCard";
-import PreworkoutCard from "../components/Card/PreworkoutCard";
-import TermogenicoCard from "../components/Card/TermogenicoCard";
-import WheyCard from "../components/Card/WheyCard";
-//titles section products
-import TitleCreatina from "../components/TItles/PageTitleCreatina";
-import TitleHypercaloric from "../components/TItles/PageTitleHypercaloric";
-import TitlePreworkout from "../components/TItles/PageTitlePreworkout";
-import TitleTermogenico from "../components/TItles/PageTitleTermogenico";
-import TitleWhey from "../components/TItles/PageTitleWhey";
+import ProductCard from "../components/Card/ProductCard";
+//services
+import MensageBuyService from "../service/MensageBuyService/MensageBuyService";
+import ProducsDataAll from "../service/ProductsAllService";
 
 function Estoque() {
   return (
@@ -21,16 +13,23 @@ function Estoque() {
       <Header />
       <TitleEstoque />
       <section className="container">
-        <TitleCreatina />
-        <CreatinaCard />
-        <TitleHypercaloric />
-        <HypercaloricCard />
-        <TitlePreworkout />
-        <PreworkoutCard />
-        <TitleTermogenico />
-        <TermogenicoCard />
-        <TitleWhey />
-        <WheyCard />
+        <div
+          className="row row-cols-1 row-cols-md-4 g-4"
+          style={{ marginTop: 50, marginLeft: "5%", marginRight: "5%" }}
+        >
+          {ProducsDataAll.map((product, index) => {
+            const Contato = MensageBuyService(product);
+
+            return (
+              <ProductCard
+                key={index}
+                product={product}
+                index={index}
+                Contato={Contato}
+              />
+            );
+          })}
+        </div>
       </section>
     </>
   );

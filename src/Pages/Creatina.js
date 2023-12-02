@@ -2,7 +2,10 @@ import React from "react";
 //components
 import Header from "../components/Header";
 import TitleCreatina from "../components/TItles/PageTitleCreatina";
-import Card from "../components/Card/CreatinaCard";
+import ProductCard from "../components/Card/ProductCard";
+//services
+import ProducsData from "../service/Products/Creatina";
+import MensageBuyService from "../service/MensageBuyService/MensageBuyService";
 
 function Creatina() {
   return (
@@ -10,7 +13,23 @@ function Creatina() {
       <Header />
       <TitleCreatina />
       <section className="container">
-        <Card />
+        <div
+          className="row row-cols-1 row-cols-md-4 g-4"
+          style={{ marginTop: 50, marginLeft: "5%", marginRight: "5%" }}
+        >
+          {ProducsData.map((product, index) => {
+            const Contato = MensageBuyService(product);
+
+            return (
+              <ProductCard
+                key={index}
+                product={product}
+                index={index}
+                Contato={Contato}
+              />
+            );
+          })}
+        </div>
       </section>
     </>
   );
