@@ -35,7 +35,7 @@ function Header() {
               width="32"
               height="32"
               fill="currentColor"
-              clasName="bi bi-list"
+              className="bi bi-list"
               viewBox="0 0 16 16"
               className="text-white"
             >
