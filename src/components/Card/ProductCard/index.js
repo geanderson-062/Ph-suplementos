@@ -14,11 +14,14 @@ const ProductCard = ({ product, index, Contato }) => {
   return (
     <div key={index} className="col product-card">
       <div className="card">
-        <img
-          src={product.imageSrc}
-          className="card-img-top zoom-image"
-          alt={product.type}
-        />
+        <div className="text-center mx-auto">
+          <img
+            src={product.imageSrc}
+            className="card-img-top zoom-image img-fluid img-thumbnail"
+            alt={product.type}
+          />
+        </div>
+
         <div className="card-body">
           <h5 className="card-title text-center fs-5">
             {product.type} de {product.description}
