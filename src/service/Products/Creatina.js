@@ -6,8 +6,7 @@ const ProducsData = [
     description: "150g",
     priceWithoutDiscount: "90.00$",
     discountPrice: "85,99$",
-    imageUrl:
-      "https://d2vq4s943o8cb4.cloudfront.net/Custom/Content/Products/02/76/0276_creatina-hardcore-integralmedica-2312_m2_636668372702493590.png",
+    imageSrc: require("../../assets/ImgProducts/Creatine/creatine_integralmedica_150g.png"),
     link: "Olá quero comprar Uma Creatina Integral medica de 150g",
   },
 
@@ -18,8 +17,7 @@ const ProducsData = [
     description: "100g",
     priceWithoutDiscount: "90.00$",
     discountPrice: "85,99$",
-    imageUrl:
-      "https://d2vq4s943o8cb4.cloudfront.net/Custom/Content/Products/02/76/0276_creatina-hardcore-integralmedica-2312_m2_636668372702493590.png",
+    imageSrc: require("../../assets/ImgProducts/Creatine/creatine_100g_max_titanium.png"),
     link: "Olá quero comprar Uma Creatina Max Titanium de 100g",
   },
 
@@ -30,8 +28,7 @@ const ProducsData = [
     description: "300g",
     priceWithoutDiscount: "90.00$",
     discountPrice: "85,99$",
-    imageUrl:
-      "https://d2vq4s943o8cb4.cloudfront.net/Custom/Content/Products/02/76/0276_creatina-hardcore-integralmedica-2312_m2_636668372702493590.png",
+    imageSrc: require("../../assets/ImgProducts/Creatine/creatine_integralmedica_300g.png"),
     link: "Olá quero comprar Uma Creatina Integral medica de 300g",
   },
 
@@ -42,8 +39,7 @@ const ProducsData = [
     description: "300g",
     priceWithoutDiscount: "90.00$",
     discountPrice: "85,99$",
-    imageUrl:
-      "https://d2vq4s943o8cb4.cloudfront.net/Custom/Content/Products/02/76/0276_creatina-hardcore-integralmedica-2312_m2_636668372702493590.png",
+    imageSrc: require("../../assets/ImgProducts/Creatine/creatine_300g_max_titanium.png"),
     link: "Olá quero comprar Uma Creatina Max Titanium de 300g",
   },
 ];
