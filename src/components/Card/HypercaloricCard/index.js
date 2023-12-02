@@ -11,7 +11,7 @@ const ProductList = () => {
     >
       {ProducsData.map((product, index) => {
         const Contato = {
-          href: `https://api.whatsapp.com/send?phone=5581992628016&text=${product.link}`,
+          href: `https://api.whatsapp.com/send?phone=5581992628016&text=Olá quero comprar ${product.type} de ${product.description} da ${product.productBrand} que está por ${product.priceWithoutDiscount} e ${product.discountPrice} á vista`,
           target: "_blank",
         };
 
