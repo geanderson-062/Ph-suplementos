@@ -11,7 +11,12 @@ export default class index extends Component {
         <Link
           to="/MaisVendido"
           className="btn btn-dark rounded-pill btn-lg"
-          style={{ width: 300 }}
+          style={{
+            width: 300,
+            borderColor: "#024BB1",
+            borderStyle: "solid",
+            borderWidth: "3px",
+          }}
           type="button"
         >
           Ver os mais vendidos{" "}
