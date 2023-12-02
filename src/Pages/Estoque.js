@@ -3,9 +3,7 @@ import ScrollReveal from "scrollreveal";
 //components
 import Header from "../components/Header";
 import TitleEstoque from "../components/TItles/PageTitleEstoque";
-
 import Selector from "../components/Selector";
-//services
 
 function Estoque() {
   useEffect(() => {
