@@ -35,9 +35,8 @@ function Header() {
               width="32"
               height="32"
               fill="currentColor"
-              className="bi bi-list"
               viewBox="0 0 16 16"
-              className="text-white"
+              className="text-white bi bi-list"
             >
               <path
                 fill-rule="evenodd"
