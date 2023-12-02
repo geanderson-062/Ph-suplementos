@@ -1,6 +1,7 @@
 const ProducsData = [
   {
-    title: "Creatina Integral medica",
+    type: "Creatina",
+    productBrand: "Integral medica",
     description: "150g",
     priceWithoutDiscount: "90.00$",
     discountPrice: "85,99$",
@@ -10,7 +11,8 @@ const ProducsData = [
   },
 
   {
-    title: "Creatina Max Titanium",
+    type: "Creatina",
+    productBrand: "Max Titanium",
     description: "100g",
     priceWithoutDiscount: "90.00$",
     discountPrice: "85,99$",
@@ -20,7 +22,8 @@ const ProducsData = [
   },
 
   {
-    title: "Creatina Integral medica",
+    type: "Creatina",
+    productBrand: "Integral medica",
     description: "300g",
     priceWithoutDiscount: "90.00$",
     discountPrice: "85,99$",
@@ -30,7 +33,8 @@ const ProducsData = [
   },
 
   {
-    title: "Creatina Max Titanium",
+    type: "Creatina",
+    productBrand: "Max Titanium",
     description: "300g",
     priceWithoutDiscount: "90.00$",
     discountPrice: "85,99$",

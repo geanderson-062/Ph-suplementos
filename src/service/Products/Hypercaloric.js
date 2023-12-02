@@ -1,6 +1,7 @@
 const ProducsData = [
   {
-    title: "Hipercalórico Diabo-Verde",
+    type: "Hipercalórico",
+    productBrand: "Diabo-Verde",
     description: "2,5Kg",
     priceWithoutDiscount: "90.00",
     discountPrice: "85,99",
@@ -10,7 +11,8 @@ const ProducsData = [
   },
 
   {
-    title: "Hipercalórico Max titanium",
+    type: "Hipercalórico",
+    productBrand: "Max titanium",
     description: "3Kg",
     priceWithoutDiscount: "90.00",
     discountPrice: "85,99",

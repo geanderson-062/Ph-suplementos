@@ -1,7 +1,8 @@
 const ProducsData = [
   {
-    title: "Thermo abdômen Bodyaction",
-    description: "907g",
+    type: "Thermo abdômen ",
+    productBrand: "Bodyaction",
+    description: "240mg",
     priceWithoutDiscount: "100.00",
     discountPrice: "95,99",
     imageUrl:
