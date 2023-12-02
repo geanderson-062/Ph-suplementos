@@ -7,7 +7,6 @@ const ProducsData = [
     priceWithoutDiscount: "90.00",
     discountPrice: "85,99",
     imageSrc: require("../../assets/ImgProducts/Hypercaloric/diabo_verde_massivemass_hypercaloric_2_5kg-refil.png"),
-    link: "Olá quero comprar Um Hipercalórico Diabo-Verde de 2,5Kg",
   },
 
   {
@@ -18,7 +17,6 @@ const ProducsData = [
     priceWithoutDiscount: "90.00",
     discountPrice: "85,99",
     imageSrc: require("../../assets/ImgProducts/Hypercaloric/mass-titanium-17500-max-titanium-3kg-refil.png"),
-    link: "Olá quero comprar Um Hipercalórico Max titanium 3Kg",
   },
 ];
 
