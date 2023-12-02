@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
+import ScrollReveal from "scrollreveal";
 import "./style.css";
 
 const ProductCard = ({ product, index, Contato }) => {
+  useEffect(() => {
+    ScrollReveal().reveal(".product-card", {
+      duration: 1000,
+      origin: "left",
+      distance: "20px",
+      easing: "ease-in-out",
+    });
+  }, []);
   return (
-    <div key={index} className="col">
+    <div key={index} className="col product-card">
       <div className="card">
         <img
           src={product.imageSrc}
