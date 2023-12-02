@@ -1,5 +1,6 @@
 const ProducsData = [
   {
+    installments: "em até 3x no cartão",
     type: "Creatina",
     productBrand: "Integral medica",
     description: "150g",
@@ -11,6 +12,7 @@ const ProducsData = [
   },
 
   {
+    installments: "em até 3x no cartão",
     type: "Creatina",
     productBrand: "Max Titanium",
     description: "100g",
@@ -22,6 +24,7 @@ const ProducsData = [
   },
 
   {
+    installments: "em até 3x no cartão",
     type: "Creatina",
     productBrand: "Integral medica",
     description: "300g",
@@ -33,6 +36,7 @@ const ProducsData = [
   },
 
   {
+    installments: "em até 3x no cartão",
     type: "Creatina",
     productBrand: "Max Titanium",
     description: "300g",

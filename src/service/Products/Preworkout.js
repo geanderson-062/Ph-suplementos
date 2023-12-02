@@ -1,5 +1,6 @@
 const ProducsData = [
   {
+    installments: "em até 3x no cartão",
     type: "Pré treino BOPE",
     productBrand: "Black-Skull",
     description: "150g",
@@ -11,6 +12,7 @@ const ProducsData = [
   },
 
   {
+    installments: "em até 3x no cartão",
     type: "Pré treino Crack",
     productBrand: "Demons-Lab",
     description: "300g",
@@ -22,6 +24,7 @@ const ProducsData = [
   },
 
   {
+    installments: "em até 3x no cartão",
     type: "Pré treino",
     productBrand: "Diabo Verde",
     description: "300g",
@@ -33,6 +36,7 @@ const ProducsData = [
   },
 
   {
+    installments: "em até 3x no cartão",
     type: "Pré treino Psicho Killer ",
     productBrand: "Demons-Lab",
     description: "294g",
@@ -44,6 +48,7 @@ const ProducsData = [
   },
 
   {
+    installments: "em até 3x no cartão",
     type: "Pré treino Égide",
     productBrand: "Max titanium",
     description: "150g",

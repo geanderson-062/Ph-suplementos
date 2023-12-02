@@ -1,5 +1,6 @@
 const ProducsData = [
   {
+    installments: "em até 3x no cartão",
     type: "Whey Protein",
     productBrand: "Max Titanium",
     description: "900g",
@@ -11,6 +12,7 @@ const ProducsData = [
   },
 
   {
+    installments: "em até 3x no cartão",
     type: "Whey Protein",
     productBrand: "Integral medica",
     description: "900g Refil",
@@ -22,6 +24,7 @@ const ProducsData = [
   },
 
   {
+    installments: "em até 3x no cartão",
     type: "Creatina",
     productBrand: "Max Titanium",
     description: "100g",
@@ -33,6 +36,7 @@ const ProducsData = [
   },
 
   {
+    installments: "em até 3x no cartão",
     type: "Pré treino Égide",
     productBrand: "Max titanium",
     description: "150g",

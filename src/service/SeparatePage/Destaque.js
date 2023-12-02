@@ -1,5 +1,6 @@
 const ProducsData = [
   {
+    installments: "em até 3x no cartão",
     type: "Thermo abdômen",
     productBrand: "Bodyaction",
     description: "240mg",
@@ -11,6 +12,7 @@ const ProducsData = [
   },
 
   {
+    installments: "em até 3x no cartão",
     type: "Pré treino Psicho Killer ",
     productBrand: "Demons-Lab",
     description: "294g",
@@ -22,6 +24,7 @@ const ProducsData = [
   },
 
   {
+    installments: "em até 3x no cartão",
     type: "Hipercalórico",
     productBrand: "Diabo-Verde",
     description: "2,5Kg",
@@ -33,6 +36,7 @@ const ProducsData = [
   },
 
   {
+    installments: "em até 3x no cartão",
     type: "Pré treino Crack",
     productBrand: "Demons-Lab",
     description: "300g",

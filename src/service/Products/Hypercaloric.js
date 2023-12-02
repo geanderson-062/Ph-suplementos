@@ -1,5 +1,6 @@
 const ProducsData = [
   {
+    installments: "em até 3x no cartão",
     type: "Hipercalórico",
     productBrand: "Diabo-Verde",
     description: "2,5Kg",
@@ -11,6 +12,7 @@ const ProducsData = [
   },
 
   {
+    installments: "em até 3x no cartão",
     type: "Hipercalórico",
     productBrand: "Max titanium",
     description: "3Kg",

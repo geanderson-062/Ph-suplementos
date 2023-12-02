@@ -1,5 +1,6 @@
 const ProducsData = [
   {
+    installments: "em até 3x no cartão",
     type: "Whey Protein",
     productBrand: "Max Titanium",
     description: "900g",
@@ -11,6 +12,7 @@ const ProducsData = [
   },
 
   {
+    installments: "em até 3x no cartão",
     type: "Whey Protein",
     productBrand: "Integral medica",
     description: "900g Refil",
@@ -22,6 +24,7 @@ const ProducsData = [
   },
 
   {
+    installments: "em até 3x no cartão",
     type: "Iso blend",
     productBrand: "Synthe-Size",
     description: "907g",
@@ -33,6 +36,7 @@ const ProducsData = [
   },
 
   {
+    installments: "em até 3x no cartão",
     type: "Whey Protein",
     productBrand: "Black-Skull",
     description: "900g",
@@ -44,6 +48,7 @@ const ProducsData = [
   },
 
   {
+    installments: "em até 3x no cartão",
     type: "Isolate Protein",
     productBrand: "Profit",
     description: "900g",

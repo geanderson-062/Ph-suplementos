@@ -18,22 +18,21 @@ const ProductCard = ({ product, index, Contato }) => {
           </h5>{" "}
           <br />
           <h6 className="card-title fs-6 text-black text-center mb-0">
-            Valor total:
-            <strong
-              style={{ marginLeft: 5 }}
-              className="card-text text-decoration-line-through"
-            >
-              {product.priceWithoutDiscount}
-            </strong>
-            <p className="card-text font-weight-bold text-black">
-              Valor à vista:
+            <p className="card-text font-weight-bold text-black ">
               <strong
                 style={{ marginLeft: 5 }}
-                className="text-success d-inline-50"
+                className="text-success d-inline-50 fs-4"
               >
                 {product.discountPrice}
               </strong>{" "}
+              à vista
             </p>
+            Ou
+            <strong style={{ marginLeft: 5 }} className="card-text ">
+              {product.priceWithoutDiscount}
+            </strong>
+            <br />
+            {product.installments}
           </h6>
         </div>
         <div className="d-flex justify-content-center" style={{ marginTop: 5 }}>
