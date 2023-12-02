@@ -1,5 +1,6 @@
 const ProducsData = [
   {
+    installments: "em até 3x no cartão",
     type: "Thermo abdômen",
     productBrand: "Bodyaction",
     description: "240mg",
