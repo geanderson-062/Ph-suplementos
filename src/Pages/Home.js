@@ -1,4 +1,3 @@
-// Navigation.js
 import React, { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
 //components
@@ -20,7 +19,6 @@ import ProducsDataPromocao from "../service/SeparatePage/Promocao";
 
 function Home() {
   useEffect(() => {
-    // Configuração do ScrollReveal
     ScrollReveal().reveal(".button", {
       duration: 1000,
       origin: "bottom",
@@ -29,7 +27,6 @@ function Home() {
     });
   }, []);
   useEffect(() => {
-    // Configuração do ScrollReveal
     ScrollReveal().reveal(".title", {
       duration: 1000,
       origin: "right",
@@ -45,7 +42,6 @@ function Home() {
         <div className="title">
           <TitlePromocao />
         </div>
-
         <div
           className="row row-cols-1 row-cols-md-4 g-4"
           style={{ marginTop: 50, marginLeft: "5%", marginRight: "5%" }}
@@ -66,11 +62,9 @@ function Home() {
         <div className="button">
           <ButtonPromocao />
         </div>
-
         <div className="title">
           <TitleMaisVendido />
         </div>
-
         <div
           className="row row-cols-1 row-cols-md-4 g-4"
           style={{ marginTop: 50, marginLeft: "5%", marginRight: "5%" }}
@@ -91,11 +85,9 @@ function Home() {
         <div className="button">
           <ButtonMaisVendido />
         </div>
-
         <div className="title">
           <TitleDestaques />
         </div>
-
         <div
           className="row row-cols-1 row-cols-md-4 g-4"
           style={{ marginTop: 50, marginLeft: "5%", marginRight: "5%" }}
