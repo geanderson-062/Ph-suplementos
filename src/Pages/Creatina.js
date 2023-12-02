@@ -4,7 +4,7 @@ import Header from "../components/Header";
 import TitleCreatina from "../components/TItles/PageTitleCreatina";
 import ProductCard from "../components/Card/ProductCard";
 //services
-import ProducsData from "../service/Products/Whey";
+import ProducsData from "../service/Products/Creatina";
 import MensageBuyService from "../service/MensageBuyService/MensageBuyService";
 
 function Creatina() {
