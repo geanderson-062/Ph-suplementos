@@ -1,4 +1,6 @@
 import React from "react";
+//image footer
+import ImgElo from "../../assets/ImgFooter/iconFooter/Elo.svg";
 
 export default function index() {
   return (
@@ -72,28 +74,16 @@ export default function index() {
                 <div className="col-md-4 mb-3 mt-md-n2">
                   <ul className="list-unstyled d-flex justify-content-between">
                     <li>
-                      <img
-                        src="./assets/ImgFooter/iconFooter/MercadoPago.svg"
-                        alt="Mercado Pago"
-                      />
+                      <img src={0} alt="Mercado Pago" />
                     </li>
                     <li>
-                      <img
-                        src="./assets/ImgFooter/iconFooter/PayPal.svg"
-                        alt="PayPal"
-                      />
+                      <img src={0} alt="PayPal" />
                     </li>
                     <li>
-                      <img
-                        src="./assets/ImgFooter/iconFooter/Elo.svg"
-                        alt="Elo"
-                      />
+                      <img src={ImgElo} alt="Elo" />
                     </li>
                     <li>
-                      <img
-                        src="./assets/ImgFooter/iconFooter/Pix.svg"
-                        alt="Pix"
-                      />
+                      <img src={0} alt="Pix" />
                     </li>
                   </ul>
                 </div>
