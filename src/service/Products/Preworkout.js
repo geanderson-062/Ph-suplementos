@@ -1,52 +1,62 @@
 const ProducsData = [
   {
-    title: "Pré treino BOPE Black-Skull",
+    installments: "em até 3x no cartão",
+    type: "Pré treino BOPE",
+    productBrand: "Black-Skull",
     description: "150g",
     priceWithoutDiscount: "100.00",
     discountPrice: "95,99",
     imageUrl:
       "https://d2vq4s943o8cb4.cloudfront.net/Custom/Content/Products/02/76/0276_creatina-hardcore-integralmedica-2312_m2_636668372702493590.png",
-    link: "/",
+    link: "Olá quero comprar Um Pré treino Black-Skull de 150g",
   },
 
   {
-    title: "Pré treino Crack Demons-Lab",
+    installments: "em até 3x no cartão",
+    type: "Pré treino Crack",
+    productBrand: "Demons-Lab",
     description: "300g",
     priceWithoutDiscount: "100.00",
     discountPrice: "95,99",
     imageUrl:
       "https://d2vq4s943o8cb4.cloudfront.net/Custom/Content/Products/02/76/0276_creatina-hardcore-integralmedica-2312_m2_636668372702493590.png",
-    link: "/",
+    link: "Olá quero comprar Um Pré treino Crack Demons-Lab de 300g",
   },
 
   {
-    title: "Pré treino Crack Diabo Verde",
+    installments: "em até 3x no cartão",
+    type: "Pré treino",
+    productBrand: "Diabo Verde",
     description: "300g",
     priceWithoutDiscount: "100.00",
     discountPrice: "95,99",
     imageUrl:
       "https://d2vq4s943o8cb4.cloudfront.net/Custom/Content/Products/02/76/0276_creatina-hardcore-integralmedica-2312_m2_636668372702493590.png",
-    link: "/",
+    link: "Olá quero comprar Um Pré treino Diabo Verde de 300g",
   },
 
   {
-    title: "Pré treino Psicho Killer Demons-Lab",
+    installments: "em até 3x no cartão",
+    type: "Pré treino Psicho Killer ",
+    productBrand: "Demons-Lab",
     description: "294g",
     priceWithoutDiscount: "100.00",
     discountPrice: "95,99",
     imageUrl:
       "https://d2vq4s943o8cb4.cloudfront.net/Custom/Content/Products/02/76/0276_creatina-hardcore-integralmedica-2312_m2_636668372702493590.png",
-    link: "/",
+    link: "Olá quero comprar Um Pré treino Psicho Killer Demons-Lab de 294g",
   },
 
   {
-    title: "Pré treino Égide Max titanium",
+    installments: "em até 3x no cartão",
+    type: "Pré treino Égide",
+    productBrand: "Max titanium",
     description: "150g",
     priceWithoutDiscount: "100.00",
     discountPrice: "95,99",
     imageUrl:
       "https://d2vq4s943o8cb4.cloudfront.net/Custom/Content/Products/02/76/0276_creatina-hardcore-integralmedica-2312_m2_636668372702493590.png",
-    link: "/",
+    link: "Olá quero comprar Um Pré treino Égide Max titanium de 150g",
   },
 ];
 
