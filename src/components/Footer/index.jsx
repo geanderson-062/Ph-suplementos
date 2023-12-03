@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 // import css
 import "./style.css";
@@ -17,13 +17,33 @@ import logoFooter from "../../assets/ImgFooter/logoFooter.svg";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
+  const [isBigScreenAt990, setIsBigScreenAt990] = useState(
+    window.innerWidth > 990
+  );
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsBigScreenAt990(window.innerWidth > 990);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <div className="bg-black text-white">
       <div className="container">
         <div className="row align-items-center">
           {/* Logo no início */}
           <div className="col-md-2 mt-2">
-            <img src={logoFooter} alt="Ph Suplementos" />
+            <img
+              src={logoFooter}
+              alt="Ph Suplementos"
+              style={{ maxWidth: "100%" }}
+            />
           </div>
 
           {/* Páginas */}
@@ -31,13 +51,19 @@ const Footer = () => {
             <h4 className="h6">Páginas</h4>
             <ul className="list-unstyled">
               <li>
-                <a href="http://">Produtos</a>
+                <a href="http://" style={{ fontSize: "14px" }}>
+                  Produtos
+                </a>
               </li>
               <li>
-                <a href="http://">Termos e condições</a>
+                <a href="http://" style={{ fontSize: "14px" }}>
+                  Termos e condições
+                </a>
               </li>
               <li>
-                <a href="http://">Forma de Pagamento</a>
+                <a href="http://" style={{ fontSize: "14px" }}>
+                  Forma de Pagamento
+                </a>
               </li>
             </ul>
           </div>
@@ -47,13 +73,19 @@ const Footer = () => {
             <h4 className="h6 mb-1">Páginas</h4>
             <ul className="list-unstyled">
               <li>
-                <a href="http://">Destaques</a>
+                <a href="http://" style={{ fontSize: "14px" }}>
+                  Destaques
+                </a>
               </li>
               <li>
-                <a href="http://">Contato</a>
+                <a href="http://" style={{ fontSize: "14px" }}>
+                  Contato
+                </a>
               </li>
               <li>
-                <a href="http://">Nossa Loja</a>
+                <a href="http://" style={{ fontSize: "14px" }}>
+                  Nossa Loja
+                </a>
               </li>
             </ul>
           </div>
@@ -104,15 +136,19 @@ const Footer = () => {
           </div>
 
           {/* Logo após Formas de Pagamento */}
-          <div className="col-md-2 mt-2">
-            <img src={logoFooter} alt="Ph Suplementos" />
-          </div>
+          {isBigScreenAt990 && (
+            <div className="col-md-2 mt-2">
+              <img
+                src={logoFooter}
+                alt="Ph Suplementos"
+                style={{ maxWidth: "100%" }}
+              />
+            </div>
+          )}
         </div>
 
-        {/* Adicionando borda abaixo do conteúdo do rodapé */}
         <div className="row border-bottom my-3"></div>
 
-        {/* Direitos autorais */}
         <div className="row">
           <div className="col-md-12 text-center">
             <p>
