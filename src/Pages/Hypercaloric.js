@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+import ScrollReveal from "scrollreveal";
 //components
 import Header from "../components/Header";
 import TitleHypercaloric from "../components/TItles/PageTitleHypercaloric";
@@ -8,10 +9,20 @@ import ProducsData from "../service/Products/Hypercaloric";
 import MensageBuyService from "../service/MensageBuyService/MensageBuyService";
 
 function Hypercaloric() {
+  useEffect(() => {
+    ScrollReveal().reveal(".title", {
+      duration: 1000,
+      origin: "right",
+      distance: "20px",
+      easing: "ease-in-out",
+    });
+  }, []);
   return (
     <>
       <Header />
-      <TitleHypercaloric />
+      <div className="title">
+        <TitleHypercaloric />
+      </div>
       <section className="container">
         <div
           className="row row-cols-1 row-cols-md-4 g-4"
