@@ -1,0 +1,28 @@
+.payment-icon-bg {
+  background-color: #d4d4d4;
+  width: 215px;
+  height: 80px;
+  border-radius: 9px;
+}
+
+.ico {
+  width: 48px;
+  height: 34px;
+}
+
+.list-unstyled > div {
+  margin-right: 5px;
+}
+
+.list-unstyled li {
+  margin-bottom: 2px;
+}
+
+.list-unstyled li > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.list-unstyled img {
+  margin-bottom: 0;
+}
