@@ -1,15 +1,25 @@
-import React from "react";
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import React, { useEffect } from "react";
+import ScrollReveal from "scrollreveal";
 import "./style.css";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
+  useEffect(() => {
+    ScrollReveal().reveal(".footer", {
+      duration: 1000,
+      origin: "bottom",
+      distance: "20px",
+      easing: "ease-in-out",
+    });
+  }, []);
   const Contato = {
     href: "https://api.whatsapp.com/send?phone=5581992628016&text=Olá Ph-suplementos precisamos conversar.",
     target: "_blank",
   };
   const currentYear = new Date().getFullYear();
   return (
-    <div className="color_footer text-white" style={{ marginTop: 100 }}>
+    <div className="color_footer text-white footer" style={{ marginTop: 100 }}>
       <div className="container py-3">
         <div className="row d-flex">
           <div className="col-12 text-center">
