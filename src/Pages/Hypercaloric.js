@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
 //components
-import Header from "../components/Header";
 import TitleHypercaloric from "../components/TItles/PageTitleHypercaloric";
 import ProductCard from "../components/Card/ProductCard";
 //services
@@ -19,7 +18,6 @@ function Hypercaloric() {
   }, []);
   return (
     <>
-      <Header />
       <div className="title">
         <TitleHypercaloric />
       </div>

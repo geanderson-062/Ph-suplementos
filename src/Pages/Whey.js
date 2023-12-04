@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
 //components
-import Header from "../components/Header";
 import TitleWhey from "../components/TItles/PageTitleWhey";
 import ProductCard from "../components/Card/ProductCard";
 //services
@@ -19,7 +18,6 @@ function Whey() {
   }, []);
   return (
     <>
-      <Header />
       <div className="title">
         <TitleWhey />
       </div>

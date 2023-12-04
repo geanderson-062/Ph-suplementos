@@ -4,6 +4,9 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 //front-end framework
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
+//components
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 //all pages navigation
 import Home from "./Pages/Home";
 import Destaques from "./Pages/Destaques.js";
@@ -20,6 +23,7 @@ import MaisVendido from "./Pages/MaisVendido.js";
 function App() {
   return (
     <Router>
+      <Header />
       <div>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -35,6 +39,7 @@ function App() {
           <Route path="/MaisVendido" element={<MaisVendido />} />
         </Routes>
       </div>
+      <Footer />
     </Router>
   );
 }

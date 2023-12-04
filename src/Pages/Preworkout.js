@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
 //components
-import Header from "../components/Header";
 import TitlePreworkout from "../components/TItles/PageTitlePreworkout";
 import ProductCard from "../components/Card/ProductCard";
 //services
@@ -19,7 +18,6 @@ function Preworkout() {
   }, []);
   return (
     <>
-      <Header />
       <div className="title">
         <TitlePreworkout />
       </div>

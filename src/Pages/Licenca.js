@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
 //components
-import Header from "../components/Header";
 import TitleLicenca from "../components/TItles/PageTitleLicenca";
 
 function Licenca() {
@@ -15,7 +14,6 @@ function Licenca() {
   }, []);
   return (
     <>
-      <Header />
       <div className="title">
         <TitleLicenca />
       </div>
