@@ -20,10 +20,6 @@
   font-weight: bold;
 }
 
-.zoom-image {
-  transition: transform 0.3s ease-in-out;
-}
-
-.zoom-image:hover {
-  transform: scale(1.2);
+.zoom-card:hover {
+  transform: scale(1.1);
 }

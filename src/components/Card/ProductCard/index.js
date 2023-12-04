@@ -18,10 +18,18 @@ const ProductCard = ({ product, index, Contato }) => {
   const discountedPrice = priceWithoutDiscount - discount;
   return (
     <div key={index} className="col product-card">
-      <div className="card">
+      <div
+        className="card zoom-card"
+        style={{
+          "@media (max-width: 767px)": {
+            maxWidth: 280,
+            marginLeft: "9%",
+          },
+        }}
+      >
         <img
           src={product.imageSrc}
-          className="card-img-top zoom-image img-fluid img-thumbnail"
+          className="card-img-top  img-fluid"
           alt={product.type}
         />
         <div className="card-body">
