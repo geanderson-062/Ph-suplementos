@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
 //components
-import Header from "../components/Header";
 import TitleTermogenico from "../components/TItles/PageTitleTermogenico";
 import ProductCard from "../components/Card/ProductCard";
 //services
@@ -19,7 +18,6 @@ function Termogenico() {
   }, []);
   return (
     <>
-      <Header />
       <div className="title">
         <TitleTermogenico />
       </div>

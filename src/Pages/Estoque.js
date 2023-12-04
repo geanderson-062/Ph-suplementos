@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
 //components
-import Header from "../components/Header";
 import TitleEstoque from "../components/TItles/PageTitleEstoque";
 import Selector from "../components/Selector";
 
@@ -24,7 +23,6 @@ function Estoque() {
   }, []);
   return (
     <>
-      <Header />
       <div className="title">
         <TitleEstoque />
       </div>
