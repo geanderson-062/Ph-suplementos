@@ -11,6 +11,11 @@ const ProductCard = ({ product, index, Contato }) => {
       easing: "ease-in-out",
     });
   }, []);
+  const priceWithoutDiscount = parseFloat(
+    product.priceWithoutDiscount.replace("$", "")
+  );
+  const discount = priceWithoutDiscount * 0.1; //(10%)
+  const discountedPrice = priceWithoutDiscount - discount;
   return (
     <div key={index} className="col product-card">
       <div className="card">
@@ -32,13 +37,13 @@ const ProductCard = ({ product, index, Contato }) => {
                 style={{ marginLeft: 5 }}
                 className="text-success d-inline-50 fs-4"
               >
-                {product.discountPrice}
+                ${discountedPrice.toFixed(2)}
               </strong>{" "}
               à vista
             </p>
             Ou
             <strong style={{ marginLeft: 5 }} className="card-text ">
-              {product.priceWithoutDiscount}
+              ${product.priceWithoutDiscount}
             </strong>
             <br />
             {product.installments}
