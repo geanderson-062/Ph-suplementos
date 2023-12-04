@@ -1,5 +1,4 @@
 .text li a {
-  color: #fff;
   font-size: 16px;
   position: relative;
 }
@@ -11,10 +10,15 @@
   left: 0;
   width: 0;
   height: 2px;
-  background-color: #fff;
+  color: #bbb !important;
+  background-color: #bbb !important;
   transition: width 0.3s ease;
 }
 
 .text a:hover::before {
   width: 100%;
+}
+
+.text-hover:hover {
+  color: #bbb !important;
 }

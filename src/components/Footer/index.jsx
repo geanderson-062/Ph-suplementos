@@ -12,16 +12,6 @@ const Footer = () => {
             <ul className="text justify-content-center border-bottom pb-3 mb-3">
               <li className="list-inline-item px-2">
                 <a className="nav-link" href="/">
-                  Sobre nós
-                </a>
-              </li>
-              <li className="list-inline-item px-2">
-                <a className="nav-link" href="/">
-                  Destaques
-                </a>
-              </li>
-              <li className="list-inline-item px-2">
-                <a className="nav-link" href="/">
                   Produto
                 </a>
               </li>
@@ -42,7 +32,10 @@ const Footer = () => {
         <div className="row">
           <div className="col-md-12 text-center">
             <p>
-              &copy; {currentYear} PH Suplementos - Todos os direitos reservados
+              &copy; {currentYear} PH Suplementos -{" "}
+              <a href="/" className="text-white text-hover">
+                Todos os direitos reservados
+              </a>
             </p>
           </div>
         </div>
