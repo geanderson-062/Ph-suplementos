@@ -8,8 +8,9 @@ export default class Index extends Component {
         <marquee direction="left">
           <h6 className="fs-6 text-white">
             Ph Suplementos: Elevando o seu potencial com suplementos premium de
-            alta qualidade. Entrega gratuita em Gravatá, de segunda a sexta, em
-            horário comercial.{" "}
+            alta qualidade. Aproveite nossas promoções: - Desconto de 10% para
+            pagamento à vista. - Parcelamento em até 3x sem juros. Entrega
+            gratuita em Gravatá, de segunda a sexta, em horário comercial.
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="25"
