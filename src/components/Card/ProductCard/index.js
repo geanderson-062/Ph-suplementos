@@ -21,7 +21,7 @@ const ProductCard = ({ product, index, Contato }) => {
       <div className="card">
         <img
           src={product.imageSrc}
-          className="card-img-top zoom-image"
+          className="card-img-top zoom-image img-fluid img-thumbnail"
           alt={product.type}
         />
         <div className="card-body">
