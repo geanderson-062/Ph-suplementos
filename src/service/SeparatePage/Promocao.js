@@ -29,10 +29,7 @@ const ProducsData = [
     productBrand: "Integral medica",
     description: "900g Refil",
     priceWithoutDiscount: "100.00",
-    discountPrice: "95,99",
-    imageUrl:
-      "https://d2vq4s943o8cb4.cloudfront.net/Custom/Content/Products/02/76/0276_creatina-hardcore-integralmedica-2312_m2_636668372702493590.png",
-    link: "Olá quero comprar Um Whey Protein Integral medica de 900g Refil",
+    imageSrc: require("../../assets/ImgProducts/Whey/whey_integralmedica_907g-refil.png"),
   },
 
   {

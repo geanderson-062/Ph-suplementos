@@ -5,9 +5,7 @@ const ProducsData = [
     productBrand: "Max Titanium",
     description: "900g",
     priceWithoutDiscount: "150.00",
-    discountPrice: "145,99",
-    imageSrc: require("../../assets/ImgProducts/Whey/100%whey_900g_max_titanium.png"),
-    link: "Olá quero comprar Um Whey Protein Max Titanium de 900g",
+    imageSrc: require("../../assets/ImgProducts/Whey/whey_900g_max_titanium.png"),
   },
 
   {
@@ -16,9 +14,7 @@ const ProducsData = [
     productBrand: "Integral medica",
     description: "900g Refil",
     priceWithoutDiscount: "100.00",
-    discountPrice: "95,99",
-    imageSrc: require("../../assets/ImgProducts/Whey/100%whey_integralmedica_907g-refil.png"),
-    link: "Olá quero comprar Um Whey Protein Integral medica de 900g Refil",
+    imageSrc: require("../../assets/ImgProducts/Whey/whey_integralmedica_907g-refil.png"),
   },
 
   {
@@ -38,9 +34,7 @@ const ProducsData = [
     productBrand: "Black-Skull",
     description: "900g",
     priceWithoutDiscount: "100.00",
-    discountPrice: "95,99",
-    imageSrc: require("../../assets/ImgProducts/Whey/100%whey_900g_blackskull.png"),
-    link: "Olá quero comprar Um Whey Protein Black-Skull 900g",
+    imageSrc: require("../../assets/ImgProducts/Whey/whey_900g_blackskull.png"),
   },
 
   {
