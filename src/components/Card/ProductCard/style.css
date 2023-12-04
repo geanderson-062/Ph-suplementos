@@ -6,6 +6,7 @@
 
 .card:hover {
   outline: 2px solid #103f79;
+  box-shadow: 0 0 40px rgba(0.502, 0.502, 0.502, 0.502);
 }
 
 .line-height {
