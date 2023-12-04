@@ -1,5 +1,6 @@
 .card img {
   max-width: 280px;
+  max-height: 280px;
   height: auto;
 }
 
@@ -25,7 +26,7 @@
 }
 
 .zoom-card:hover {
-  transform: scale(1.1);
+  transform: scale(0.9);
 }
 
 @media (max-width: 400px) {
