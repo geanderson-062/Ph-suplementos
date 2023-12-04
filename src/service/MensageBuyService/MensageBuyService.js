@@ -10,7 +10,7 @@ const MensageBuyService = (product) => {
       product.type
     } de ${product.description} da ${product.productBrand} que está por ${
       product.priceWithoutDiscount
-    } e ${discountedPrice.toFixed(2)} á vista.`,
+    } e ${discountedPrice.toFixed(2)} á vista, ainda está disponivel ?`,
     target: "_blank",
   };
 };
