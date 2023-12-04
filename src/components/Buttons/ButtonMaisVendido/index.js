@@ -6,7 +6,7 @@ export default class index extends Component {
     return (
       <div
         className="d-flex justify-content-center"
-        style={{ marginTop: 30, marginBottom: 30 }}
+        style={{ marginTop: 50, marginBottom: 30 }}
       >
         <Link
           to="/MaisVendido"
