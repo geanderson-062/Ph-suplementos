@@ -1,0 +1,26 @@
+.text li a {
+  font-size: 16px;
+  position: relative;
+}
+
+.text li a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  color: #bbb !important;
+  background-color: #bbb !important;
+  transition: width 0.3s ease;
+}
+
+.text a:hover::before {
+  width: 100%;
+}
+
+.text-hover:hover {
+  color: #bbb !important;
+}
+
+.color_footer { background-color: #000;}

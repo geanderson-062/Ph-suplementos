@@ -3,6 +3,7 @@ import ScrollReveal from "scrollreveal";
 //components
 import Header from "../components/Header";
 import ProductCard from "../components/Card/ProductCard";
+import Footer from "../components/Footer";
 //titles section
 import TitlePromocao from "../components/TItles/PageTitlePromocao";
 import TitleMaisVendido from "../components/TItles/PageTitleMaisVendido";
@@ -109,6 +110,7 @@ function Home() {
           <ButtonDestaque />
         </div>
       </section>
+      <Footer />
     </>
   );
 }
