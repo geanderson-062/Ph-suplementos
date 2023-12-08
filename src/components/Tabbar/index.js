@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/no-distracting-elements */
 import React, { Component } from "react";
 
 export default class Index extends Component {
@@ -7,10 +6,23 @@ export default class Index extends Component {
       <div style={{ backgroundColor: "#000" }}>
         <marquee direction="left">
           <h6 className="fs-6 text-white">
-            Ph Suplementos: Elevando o seu potencial com suplementos premium de
-            alta qualidade. Aproveite nossas promoções: - Desconto de 10% para
-            pagamento à vista. - Parcelamento em até 3x sem juros. Entrega
-            gratuita em Gravatá, de segunda a sexta, em horário comercial.
+            <span style={{ marginRight: "10px" }}>
+              Ph Suplementos: Elevando o seu potencial com suplementos premium
+              de alta qualidade.
+            </span>
+            <span style={{ marginRight: "10px" }}>
+              Aproveite nossas promoções:
+            </span>
+            <span style={{ marginRight: "10px" }}>
+              - Desconto de 10% para pagamento à vista.
+            </span>
+            <span style={{ marginRight: "10px" }}>
+              - Parcelamento em até 3x sem juros.
+            </span>
+            <span style={{ marginRight: "10px" }}>
+              Entrega gratuita em Gravatá, de segunda a sexta, em horário
+              comercial.
+            </span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="25"

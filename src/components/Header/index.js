@@ -1,15 +1,19 @@
-import React, { Component } from "react";
-import Navbar from "../Navbar";
-import Carousel from "../Carousel";
-import Tabbar from "../Tabbar";
-export default class index extends Component {
+import React, { Component, lazy, Suspense } from "react";
+
+const Navbar = lazy(() => import("../Navbar"));
+const Carousel = lazy(() => import("../Carousel"));
+const Tabbar = lazy(() => import("../Tabbar"));
+
+export default class Index extends Component {
   render() {
     return (
       <>
         <header>
-          <Navbar />
-          <Carousel />
-          <Tabbar />
+          <Suspense fallback={<div>Loading...</div>}>
+            <Navbar />
+            <Carousel />
+            <Tabbar />
+          </Suspense>
         </header>
       </>
     );
