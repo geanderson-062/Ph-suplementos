@@ -5,6 +5,7 @@ const ProducsData = [
     productBrand: "Diabo-Verde",
     description: "2,5Kg",
     priceWithoutDiscount: "90.00",
+    quantity: "9",
     imageSrc: require("../../assets/ImgProducts/Hypercaloric/diabo_verde_massivemass_hypercaloric_2_5kg-refil.png"),
   },
 
@@ -14,6 +15,7 @@ const ProducsData = [
     productBrand: "Max titanium",
     description: "3Kg",
     priceWithoutDiscount: "90.00",
+    quantity: "9",
     imageSrc: require("../../assets/ImgProducts/Hypercaloric/mass-titanium-17500-max-titanium-3kg-refil.png"),
   },
 ];

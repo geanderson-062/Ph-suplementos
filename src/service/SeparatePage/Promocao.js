@@ -5,6 +5,7 @@ const ProducsData = [
     productBrand: "Demons-Lab",
     description: "294g",
     priceWithoutDiscount: "100.00",
+    quantity: "6",
     imageSrc: require("../../assets/ImgProducts/PreWorkout/pre_workout_psycho_killer_294g.png"),
   },
 
@@ -14,6 +15,7 @@ const ProducsData = [
     productBrand: "Diabo-Verde",
     description: "2,5Kg",
     priceWithoutDiscount: "90.00",
+    quantity: "6",
     imageSrc: require("../../assets/ImgProducts/Hypercaloric/diabo_verde_massivemass_hypercaloric_2_5kg-refil.png"),
   },
 
@@ -23,6 +25,7 @@ const ProducsData = [
     productBrand: "Integral medica",
     description: "900g Refil",
     priceWithoutDiscount: "100.00",
+    quantity: "6",
     imageSrc: require("../../assets/ImgProducts/Whey/whey_integralmedica_907g-refil.png"),
   },
 
@@ -32,6 +35,7 @@ const ProducsData = [
     productBrand: "Integral medica",
     description: "150g",
     priceWithoutDiscount: "90.00$",
+    quantity: "6",
     imageSrc: require("../../assets/ImgProducts/Creatine/creatine_integralmedica_150g.png"),
   },
 ];

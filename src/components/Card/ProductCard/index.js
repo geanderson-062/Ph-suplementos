@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
+import ProductQuantity from "../../ProductQuantityText";
 import "./style.css";
 
 const ProductCard = ({ product, index, Contato }) => {
@@ -21,7 +22,7 @@ const ProductCard = ({ product, index, Contato }) => {
       <div
         className="card zoom-card"
         style={{
-          height: 550,
+          height: 575,
           "@media (max-width: 767px)": {
             maxWidth: 280,
             marginLeft: "9%",
@@ -58,6 +59,9 @@ const ProductCard = ({ product, index, Contato }) => {
             </strong>
             <br />
             {product.installments}
+            <br />
+            <br />
+            <ProductQuantity product={product} />
           </h6>{" "}
           <div
             className="d-flex justify-content-center"

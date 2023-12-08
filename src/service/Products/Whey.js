@@ -5,6 +5,7 @@ const ProducsData = [
     productBrand: "Max Titanium",
     description: "900g",
     priceWithoutDiscount: "150.00",
+    quantity: "9",
     imageSrc: require("../../assets/ImgProducts/Whey/whey_900g_max_titanium.png"),
   },
 
@@ -14,6 +15,7 @@ const ProducsData = [
     productBrand: "Integral medica",
     description: "900g Refil",
     priceWithoutDiscount: "100.00",
+    quantity: "9",
     imageSrc: require("../../assets/ImgProducts/Whey/whey_integralmedica_907g-refil.png"),
   },
 
@@ -24,6 +26,7 @@ const ProducsData = [
     description: "907g",
     priceWithoutDiscount: "100.00",
     discountPrice: "95,99",
+    quantity: "9",
     imageSrc: require("../../assets/ImgProducts/Whey/size_up_isolate_blend_protein_907g_refil.png"),
   },
 
@@ -33,6 +36,7 @@ const ProducsData = [
     productBrand: "Black-Skull",
     description: "900g",
     priceWithoutDiscount: "100.00",
+    quantity: "9",
     imageSrc: require("../../assets/ImgProducts/Whey/whey_900g_blackskull.png"),
   },
 
@@ -42,6 +46,7 @@ const ProducsData = [
     productBrand: "Profit",
     description: "900g",
     priceWithoutDiscount: "100.00",
+    quantity: "9",
     imageSrc: require("../../assets/ImgProducts/Whey/isolate_protein_mix_profit_lab_900g-refil.png"),
   },
 ];

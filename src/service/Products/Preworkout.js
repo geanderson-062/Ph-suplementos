@@ -5,6 +5,7 @@ const ProducsData = [
     productBrand: "Black-Skull",
     description: "150g",
     priceWithoutDiscount: "100.00",
+    quantity: "9",
     imageSrc: require("../../assets/ImgProducts/PreWorkout/pre_workout_bope_blackskull_150g.png"),
   },
 
@@ -14,6 +15,7 @@ const ProducsData = [
     productBrand: "Demons-Lab",
     description: "300g",
     priceWithoutDiscount: "100.00",
+    quantity: "9",
     imageSrc: require("../../assets/ImgProducts/PreWorkout/pre_workout_crack_300g.png"),
   },
 
@@ -23,6 +25,7 @@ const ProducsData = [
     productBrand: "Diabo Verde",
     description: "300g",
     priceWithoutDiscount: "100.00",
+    quantity: "9",
     imageSrc: require("../../assets/ImgProducts/PreWorkout/pre_workout_diabo_verde_300g.png"),
   },
 
@@ -32,6 +35,7 @@ const ProducsData = [
     productBrand: "Demons-Lab",
     description: "294g",
     priceWithoutDiscount: "100.00",
+    quantity: "9",
     imageSrc: require("../../assets/ImgProducts/PreWorkout/pre_workout_psycho_killer_294g.png"),
   },
 
@@ -41,6 +45,7 @@ const ProducsData = [
     productBrand: "Max titanium",
     description: "150g",
     priceWithoutDiscount: "100.00",
+    quantity: "9",
     imageSrc: require("../../assets/ImgProducts/PreWorkout/pre_workout_egide_max_titanium_150g.png"),
   },
 ];
