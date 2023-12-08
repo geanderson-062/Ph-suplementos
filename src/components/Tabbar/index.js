@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/no-distracting-elements */
 import React, { Component } from "react";
 
 export default class Index extends Component {
