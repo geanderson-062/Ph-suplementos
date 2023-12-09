@@ -39,7 +39,7 @@ const ProductCard = ({ product, index, Contato }) => {
           </h5>
           <div className="d-flex flex-md-row justify-content-between border-top pt-2">
             <div className="col-md-6 d-flex flex-column align-items-start line-height">
-              <p className="card-text text-decoration-line-through text-black-50 mb-0">
+              <p className="card-text text-black-50 mb-0">
                 R$ {product.priceWithoutDiscount}
               </p>
               <p
