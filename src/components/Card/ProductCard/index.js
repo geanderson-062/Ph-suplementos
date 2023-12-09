@@ -18,9 +18,9 @@ const ProductCard = ({ product, index, Contato }) => {
   const discount = priceWithoutDiscount * 0.1; //(10%)
   const discountedPrice = priceWithoutDiscount - discount;
   return (
-    <div key={index} className="col product-card">
+    <div key={index} className="col-12 col-md-6 col-lg-4 mb-3">
       <div
-        className="card zoom-card"
+        className="card zoom-card mx-auto d-flex flex-column justify-content-between"
         style={{ maxWidth: "250px", maxHeight: "500px" }}
       >
         <img
