@@ -22,7 +22,7 @@ const ProductCard = ({ product, index, Contato }) => {
       <div
         className="card zoom-card"
         style={{
-          height: 575,
+          height: 500,
           "@media (max-width: 767px)": {
             maxWidth: 280,
             marginLeft: "9%",
@@ -31,11 +31,17 @@ const ProductCard = ({ product, index, Contato }) => {
       >
         <img
           src={product.imageSrc}
-          className="card-img-top  img-fluid"
+          className="card-img-top img-fluid"
           alt={product.type}
+          style={{
+            objectFit: "cover",
+            width: "180px",
+            height: "320px",
+            margin: "auto",
+          }}
         />
         <div className="card-body">
-          <h5 className="card-title text-center fs-5">
+          <h5 className="card-title text-center fs-5 mb-0">
             {product.type}
             <br />
             {product.productBrand}
@@ -43,7 +49,7 @@ const ProductCard = ({ product, index, Contato }) => {
             {product.description}
           </h5>{" "}
           <br />
-          <h6 className="card-title fs-6 text-black text-center mb-0">
+          <h6 className="card-title fs-6 text-black text-center">
             <p className="card-text font-weight-bold text-black ">
               <strong
                 style={{ marginLeft: 5 }}
