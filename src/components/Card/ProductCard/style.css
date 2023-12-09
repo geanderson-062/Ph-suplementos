@@ -23,7 +23,7 @@
 }
 
 .zoom-card {
-  transition: transform 0.3s ease; 
+  transition: transform 0.3s ease;
 }
 
 .zoom-card:hover {
@@ -33,7 +33,5 @@
 @media (max-width: 400px) {
   .zoom-card:hover {
     transform: scale(1);
-    }
   }
-
-
+}

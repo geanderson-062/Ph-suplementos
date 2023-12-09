@@ -15,7 +15,7 @@ export default class SeuComponente extends Component {
     }
 
     return (
-      <p style={{ color: messageColor }}>
+      <p className="mb-0" style={{ color: messageColor }}>
         Restam: {product.quantity} unidades.
       </p>
     );
