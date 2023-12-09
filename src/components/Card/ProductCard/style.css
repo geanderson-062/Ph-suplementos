@@ -1,25 +1,6 @@
-.card img {
-  max-width: 280px;
-  max-height: 280px;
-  height: auto;
-}
-
 .card:hover {
   outline: 2px solid #103f79;
   box-shadow: 0 0 40px rgba(0.502, 0.502, 0.502, 0.502);
-}
-
-.line-height {
-  line-height: 1.1;
-}
-
-.cashPrice {
-  font-size: 22px;
-}
-
-.installmentPrice {
-  font-size: 14px;
-  font-weight: bold;
 }
 
 .zoom-card {
@@ -30,8 +11,23 @@
   transform: scale(0.9);
 }
 
+.card.out-of-stock:hover {
+  outline: none;
+  box-shadow: none;
+  transform: none;
+}
+
+.line-height {
+  line-height: 1.1;
+}
+
+.installmentPrice {
+  font-size: 14px;
+  font-weight: bold;
+}
+
 @media (max-width: 400px) {
   .zoom-card:hover {
-    transform: scale(1);
+    transform: none;
   }
 }

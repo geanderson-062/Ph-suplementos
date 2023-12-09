@@ -20,14 +20,33 @@ const ProductCard = ({ product, index, Contato }) => {
   return (
     <div key={index} className="col-12 col-md-6 col-lg-4 mb-3">
       <div
-        className="card zoom-card mx-auto d-flex flex-column justify-content-between"
+        className={`card zoom-card mx-auto d-flex flex-column justify-content-between position-relative ${
+          parseInt(product.quantity, 10) === 0 ? "out-of-stock" : ""
+        }`}
         style={{ maxWidth: "250px", maxHeight: "500px" }}
       >
+        {parseInt(product.quantity, 10) === 0 && (
+          <div
+            className="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center"
+            style={{ background: "rgba(255, 255, 255, 0.8)" }}
+          >
+            <span
+              className="text-danger"
+              style={{
+                fontSize: 20,
+                fontWeight: "bold",
+                transform: "rotate(-45deg)",
+              }}
+            >
+              ESGOTADO
+            </span>
+          </div>
+        )}
         <img
           src={product.imageSrc}
-          className="card-img-top img-fluid"
+          className="card-img-top img-fluid mx-auto"
           alt={product.type}
-          style={{ objectFit: "cover", width: "100%", height: "200px" }}
+          style={{ width: "160px", height: "160px" }}
         />
         <div className="card-body text-center">
           <h5 className="card-title mb-2">
@@ -75,6 +94,7 @@ const ProductCard = ({ product, index, Contato }) => {
                 borderWidth: "3px",
               }}
               type="button"
+              disabled={parseInt(product.quantity, 10) === 0}
             >
               Comprar
               <svg
