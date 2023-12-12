@@ -1,22 +1,32 @@
 import React, { Component } from "react";
 
-export default class SeuComponente extends Component {
+export default class ProductQuantityText extends Component {
   render() {
     const { product } = this.props;
 
     let messageColor = "";
+    let message = "";
 
-    if (product.quantity > 10) {
-      messageColor = "green"; // ou a classe CSS correspondente
-    } else if (product.quantity < 6) {
-      messageColor = "red"; // ou a classe CSS correspondente
+    if (product.quantity >= 10) {
+      message = `${product.quantity} unidades restantes`;
+      messageColor = "green";
+    } else if (product.quantity >= 2 && product.quantity <= 9) {
+      message = `${product.quantity} unidades restantes`;
+      messageColor = "orange";
+    } else if (parseInt(product.quantity, 10) === 1) {
+      message = "1 unidade restante";
+      messageColor = "orange";
+    } else if (parseInt(product.quantity, 10) === 0) {
+      message = "FORA DE ESTOQUE";
+      messageColor = "red";
     } else {
-      messageColor = "orange"; // ou a classe CSS correspondente
+      message = `${product.quantity} unidades restantes`;
+      messageColor = "red";
     }
 
     return (
       <p className="mb-0" style={{ color: messageColor }}>
-        Restam: {product.quantity} unidades.
+        {message}
       </p>
     );
   }

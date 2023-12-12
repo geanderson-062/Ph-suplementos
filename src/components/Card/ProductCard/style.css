@@ -3,6 +3,20 @@
   box-shadow: 0 0 40px rgba(0.502, 0.502, 0.502, 0.502);
 }
 
+.zoom-card {
+  transition: transform 0.3s ease;
+}
+
+.zoom-card:hover {
+  transform: scale(0.9);
+}
+
+.installmentPrice {
+  font-size: 14px;
+  font-weight: bold;
+
+}
+
 .line-height {
   line-height: 1.1;
 }
@@ -12,16 +26,8 @@
   font-weight: bold;
 }
 
-.zoom-card {
-  transition: transform 0.3s ease;
-}
-
-.zoom-card:hover {
-  transform: scale(0.9);
-}
-
 @media (max-width: 400px) {
   .zoom-card:hover {
-    transform: scale(1);
+    transform: none;
   }
 }

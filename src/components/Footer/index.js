@@ -48,7 +48,7 @@ const Footer = () => {
                     width="16"
                     height="16"
                     fill="currentColor"
-                    class="bi bi-truck"
+                    className="bi bi-truck"
                     viewBox="0 0 16 16"
                     style={{ marginLeft: 5 }}
                   >
