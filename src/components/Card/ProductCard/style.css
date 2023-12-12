@@ -11,10 +11,10 @@
   transform: scale(0.9);
 }
 
-.card.out-of-stock:hover {
-  outline: none;
-  box-shadow: none;
-  transform: none;
+.installmentPrice {
+  font-size: 14px;
+  font-weight: bold;
+
 }
 
 .line-height {
