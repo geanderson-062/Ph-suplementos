@@ -4,10 +4,7 @@ import { Link } from "react-router-dom";
 export default class index extends Component {
   render() {
     return (
-      <div
-        className="d-flex justify-content-center"
-        style={{ marginTop: 50, marginBottom: 30 }}
-      >
+      <div className="d-flex justify-content-center" style={{ marginTop: 30 }}>
         <Link
           to="/MaisVendido"
           className="btn btn-dark rounded-pill btn-lg"

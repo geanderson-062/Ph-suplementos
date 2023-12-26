@@ -14,7 +14,6 @@
 .installmentPrice {
   font-size: 14px;
   font-weight: bold;
-
 }
 
 .line-height {
@@ -24,6 +23,13 @@
 .installmentPrice {
   font-size: 14px;
   font-weight: bold;
+}
+
+/* disable hover effect on card that is out of stock */
+.out-of-stock:hover {
+  outline: none;
+  box-shadow: none;
+  transform: none;
 }
 
 @media (max-width: 400px) {

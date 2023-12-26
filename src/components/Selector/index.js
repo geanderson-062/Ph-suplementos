@@ -20,7 +20,7 @@ import ProducsDataTermogenico from "../../service/Products/Termogenico";
 const ComponentAllProducts = () => (
   <section className="container">
     <div
-      className="row row-cols-1 row-cols-md-4 g-4"
+      className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4"
       style={{ marginTop: 50, marginLeft: "5%", marginRight: "5%" }}
     >
       {ProducsDataAll.map((product, index) => {
@@ -43,7 +43,7 @@ const ComponentCreatina = () => (
   <section className="container">
     <TitleCreatina />
     <div
-      className="row row-cols-1 row-cols-md-4 g-4"
+      className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4"
       style={{ marginTop: 50, marginLeft: "5%", marginRight: "5%" }}
     >
       {ProducsDataCreatina.map((product, index) => {
@@ -66,7 +66,7 @@ const ComponentWhey = () => (
   <section className="container">
     <TitleWhey />
     <div
-      className="row row-cols-1 row-cols-md-4 g-4"
+      className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4"
       style={{ marginTop: 50, marginLeft: "5%", marginRight: "5%" }}
     >
       {ProducsDataWhey.map((product, index) => {
@@ -89,7 +89,7 @@ const ComponentPreworkout = () => (
   <section className="container">
     <TitlePreworkout />
     <div
-      className="row row-cols-1 row-cols-md-4 g-4"
+      className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4"
       style={{ marginTop: 50, marginLeft: "5%", marginRight: "5%" }}
     >
       {ProducsDataPreworkout.map((product, index) => {
@@ -112,7 +112,7 @@ const ComponentHypercaloric = () => (
   <section className="container">
     <TitleHypercaloric />
     <div
-      className="row row-cols-1 row-cols-md-4 g-4"
+      className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4"
       style={{ marginTop: 50, marginLeft: "5%", marginRight: "5%" }}
     >
       {ProducsDataHypercaloric.map((product, index) => {
@@ -135,7 +135,7 @@ const ComponentTermogenico = () => (
   <section className="container">
     <TitleTermogenico />
     <div
-      className="row row-cols-1 row-cols-md-4 g-4"
+      className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4"
       style={{ marginTop: 50, marginLeft: "5%", marginRight: "5%" }}
     >
       {ProducsDataTermogenico.map((product, index) => {

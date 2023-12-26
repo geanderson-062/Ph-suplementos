@@ -42,7 +42,7 @@ function Home() {
         </div>
         <div
           className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4"
-          style={{ marginTop: 50, marginLeft: "5%", marginRight: "5%" }}
+          style={{ marginTop: 10, marginLeft: "5%", marginRight: "5%" }}
         >
           {ProducsDataMaisVendido.map((product, index) => {
             const Contato = MensageBuyService(product);
@@ -65,7 +65,7 @@ function Home() {
         </div>
         <div
           className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4"
-          style={{ marginTop: 50, marginLeft: "5%", marginRight: "5%" }}
+          style={{ marginTop: 10, marginLeft: "5%", marginRight: "5%" }}
         >
           {ProducsDataDestaques.map((product, index) => {
             const Contato = MensageBuyService(product);
@@ -88,7 +88,7 @@ function Home() {
         </div>
         <div
           className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4"
-          style={{ marginTop: 50, marginLeft: "5%", marginRight: "5%" }}
+          style={{ marginTop: 10, marginLeft: "5%", marginRight: "5%" }}
         >
           {ProducsDataPromocao.map((product, index) => {
             const Contato = MensageBuyService(product);
