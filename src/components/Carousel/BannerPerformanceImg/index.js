@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import ImgBannerPerformance from "../../assets/ImgBanner/BannerPerformance.png";
-import ImgBannerPerformanceMobile from "../../assets/ImgBanner/BannerPerformanceMobile.png";
+import ImgBannerPerformance from "../../../assets/ImgBanner/BannerPerformance.png";
+import ImgBannerPerformanceMobile from "../../../assets/ImgBanner/BannerPerformanceMobile.png";
 
 export default class Index extends Component {
   constructor(props) {
