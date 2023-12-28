@@ -5,10 +5,14 @@ const LoadingSpinner = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const fakeAsyncRequest = () => {
-      setTimeout(() => {
+    const fakeAsyncRequest = async () => {
+      try {
+        await new Promise((resolve) => setTimeout(resolve, 3000));
         setLoading(false);
-      }, 5000);
+      } catch (error) {
+        console.error("Erro durante o carregamento:", error);
+        setLoading(false);
+      }
     };
 
     fakeAsyncRequest();
@@ -22,22 +26,23 @@ const LoadingSpinner = () => {
         left: 0,
         width: "100%",
         height: "100%",
-        backgroundColor: loading ? "#000" : "transparent",
+        backgroundColor: loading ? "rgba(0, 0, 0, 0.7)" : "transparent",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
         zIndex: 9999,
         transition: "background-color 0.5s",
+        pointerEvents: loading ? "all" : "none",
       }}
     >
-      <div>
-        <RingLoader loading={loading} color="#fff" size={150} />
-        {loading && (
+      {loading && (
+        <div>
+          <RingLoader loading={loading} color="#fff" size={150} />
           <p className="fs-3 text-white" style={{ marginTop: 30 }}>
             Carregando...
           </p>
-        )}
-      </div>
+        </div>
+      )}
     </div>
   );
 };
