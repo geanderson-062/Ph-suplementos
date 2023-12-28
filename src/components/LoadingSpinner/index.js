@@ -1,18 +1,28 @@
 import React, { useState, useEffect } from "react";
 import { RingLoader } from "react-spinners";
+import imagesLoaded from "imagesloaded";
 
 const LoadingSpinner = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    const startLoadingTime = new Date().getTime();
+
     const fakeAsyncRequest = async () => {
-      try {
-        await new Promise((resolve) => setTimeout(resolve, 3000));
-        setLoading(false);
-      } catch (error) {
-        console.error("Erro durante o carregamento:", error);
-        setLoading(false);
-      }
+      const images = document.querySelectorAll("img");
+
+      imagesLoaded(images, { background: true }, async () => {
+        const endLoadingTime = new Date().getTime();
+        const loadingTime = endLoadingTime - startLoadingTime;
+
+        try {
+          await new Promise((resolve) => setTimeout(resolve, loadingTime));
+          setLoading(false);
+        } catch (error) {
+          console.error("Erro durante o carregamento:", error);
+          setLoading(false);
+        }
+      });
     };
 
     fakeAsyncRequest();
@@ -26,7 +36,7 @@ const LoadingSpinner = () => {
         left: 0,
         width: "100%",
         height: "100%",
-        backgroundColor: loading ? "rgba(0, 0, 0, 0.7)" : "transparent",
+        backgroundColor: loading ? "rgba(0, 0, 0, 0.9)" : "transparent",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
