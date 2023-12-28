@@ -7,6 +7,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 //components
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import LoadingSpinner from "./components/LoadingSpinner/index.js";
 //all pages navigation
 import Home from "./Pages/Home";
 import Destaques from "./Pages/Destaques.js";
@@ -40,6 +41,7 @@ function App() {
         </Routes>
       </div>
       <Footer />
+      <LoadingSpinner />
     </Router>
   );
 }
