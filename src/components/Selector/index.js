@@ -3,11 +3,11 @@ import React, { useState } from "react";
 //card component
 import ProductCard from "../Card/ProductCard";
 //titles
-import TitleCreatina from "../TItles/PageTitleCreatina";
-import TitleHypercaloric from "../TItles/PageTitleHypercaloric";
-import TitlePreworkout from "../TItles/PageTitlePreworkout";
-import TitleTermogenico from "../TItles/PageTitleTermogenico";
-import TitleWhey from "../TItles/PageTitleWhey";
+import TitleCreatina from "../Title/PageTitleCreatina";
+import TitleHypercaloric from "../Title/PageTitleHypercaloric";
+import TitlePreworkout from "../Title/PageTitlePreworkout";
+import TitleTermogenico from "../Title/PageTitleTermogenico";
+import TitleWhey from "../Title/PageTitleWhey";
 //services
 import MensageBuyService from "../../service/MensageBuyService/MensageBuyService";
 import ProducsDataAll from "../../service/ProductsAllService";

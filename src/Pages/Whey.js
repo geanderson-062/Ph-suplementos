@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
 //components
-import TitleWhey from "../components/TItles/PageTitleWhey";
+import TitleWhey from "../components/Title/PageTitleWhey";
 import ProductCard from "../components/Card/ProductCard";
 //services
 import ProducsData from "../service/Products/Whey";

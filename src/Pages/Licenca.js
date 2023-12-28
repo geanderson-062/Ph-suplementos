@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
 //components
-import TitleLicenca from "../components/TItles/PageTitleLicenca";
+import TitleLicenca from "../components/Title/PageTitleLicenca";
 import TextLicenca from "../components/Text/licenca";
 
 function Licenca() {

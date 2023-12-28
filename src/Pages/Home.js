@@ -3,13 +3,13 @@ import ScrollReveal from "scrollreveal";
 //components
 import ProductCard from "../components/Card/ProductCard";
 //titles section
-import TitlePromocao from "../components/TItles/PageTitlePromocao";
-import TitleMaisVendido from "../components/TItles/PageTitleMaisVendido";
-import TitleDestaques from "../components/TItles/PageTitleDestaques";
+import TitlePromocao from "../components/Title/PageTitlePromocao";
+import TitleMaisVendido from "../components/Title/PageTitleMaisVendido";
+import TitleDestaques from "../components/Title/PageTitleDestaques";
 //buttons
-import ButtonDestaque from "../components/Buttons/ButtonDestaque";
-import ButtonPromocao from "../components/Buttons/ButtonPromocao";
-import ButtonMaisVendido from "../components/Buttons/ButtonMaisVendido";
+import ButtonDestaque from "../components/Button/ButtonDestaque";
+import ButtonPromocao from "../components/Button/ButtonPromocao";
+import ButtonMaisVendido from "../components/Button/ButtonMaisVendido";
 //services
 import MensageBuyService from "../service/MensageBuyService/MensageBuyService";
 import ProducsDataMaisVendido from "../service/SeparatePage/MaisVendido";

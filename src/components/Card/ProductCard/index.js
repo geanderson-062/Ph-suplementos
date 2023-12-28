@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
-import ProductQuantity from "../../ProductQuantityText";
+import ProductQuantity from "../../Text/ProductQuantityText";
 import "./style.css";
 
 const ProductCard = ({ product, index, Contato }) => {

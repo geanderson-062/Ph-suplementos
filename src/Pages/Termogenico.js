@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
 //components
-import TitleTermogenico from "../components/TItles/PageTitleTermogenico";
+import TitleTermogenico from "../components/Title/PageTitleTermogenico";
 import ProductCard from "../components/Card/ProductCard";
 //services
 import ProducsData from "../service/Products/Termogenico";

@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
 //components
-import TitleHypercaloric from "../components/TItles/PageTitleHypercaloric";
+import TitleHypercaloric from "../components/Title/PageTitleHypercaloric";
 import ProductCard from "../components/Card/ProductCard";
 //services
 import ProducsData from "../service/Products/Hypercaloric";
