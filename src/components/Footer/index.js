@@ -81,6 +81,8 @@ const Footer = () => {
             <p>
               &copy; {currentYear} PH Suplementos
               <br />
+              <small>CNPJ: 53.126.776/0001-19</small>
+              <br />
               <Link to="/Licenca" className="text-white text-hover">
                 Todos os direitos reservados
               </Link>
