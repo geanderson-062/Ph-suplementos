@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
 //components
-import TitleEstoque from "../components/TItles/PageTitleEstoque";
+import TitleEstoque from "../components/Title/PageTitleEstoque";
 import Selector from "../components/Selector";
 
 function Estoque() {

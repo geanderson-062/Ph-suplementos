@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
 //components
-import TitleDestaques from "../components/TItles/PageTitleDestaques";
+import TitleDestaques from "../components/Title/PageTitleDestaques";
 import ProductCard from "../components/Card/ProductCard";
 //services
 import ProducsData from "../service/SeparatePage/Destaque";

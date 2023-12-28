@@ -1,7 +1,7 @@
 import React, { Component, lazy, Suspense } from "react";
 
 const Navbar = lazy(() => import("../Navbar"));
-const Carousel = lazy(() => import("../Carousel"));
+const Carousel = lazy(() => import("../Carousel/CarouselBanner"));
 const Tabbar = lazy(() => import("../Tabbar"));
 
 export default class Index extends Component {

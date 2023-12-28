@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
 //components
-import TitlePreworkout from "../components/TItles/PageTitlePreworkout";
+import TitlePreworkout from "../components/Title/PageTitlePreworkout";
 import ProductCard from "../components/Card/ProductCard";
 //services
 import ProducsData from "../service/Products/Preworkout";

@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
 //components
-import TitleCreatina from "../components/TItles/PageTitleCreatina";
+import TitleCreatina from "../components/Title/PageTitleCreatina";
 import ProductCard from "../components/Card/ProductCard";
 //services
 import ProducsData from "../service/Products/Creatina";
