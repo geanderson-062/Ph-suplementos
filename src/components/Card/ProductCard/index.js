@@ -20,7 +20,7 @@ const ProductCard = ({ product, index, Contato }) => {
   return (
     <div key={index} className="col-12 col-md-6 col-lg-4 mb-3">
       <div
-        className={`card zoom-card mx-auto d-flex flex-column justify-content-between position-relative ${
+        className={`card zoom-card mx-auto d-flex flex-column justify-content-between position-relative product-card ${
           parseInt(product.quantity, 10) === 0 ? "out-of-stock" : ""
         }`}
         style={{ maxWidth: "250px", maxHeight: "500px" }}
