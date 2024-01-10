@@ -20,6 +20,7 @@ import Termogenico from "./Pages/Termogenico.js";
 import Creatina from "./Pages/Creatina.js";
 import Whey from "./Pages/Whey.js";
 import MaisVendido from "./Pages/MaisVendido.js";
+import Delivery from "./Pages/Delivery.js";
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
           <Route path="/Creatina" element={<Creatina />} />
           <Route path="/Whey" element={<Whey />} />
           <Route path="/MaisVendido" element={<MaisVendido />} />
+          <Route path="/Entrega" element={<Delivery />} />
         </Routes>
       </div>
       <Footer />

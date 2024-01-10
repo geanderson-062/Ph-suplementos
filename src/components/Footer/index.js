@@ -41,7 +41,7 @@ const Footer = () => {
                 </a>
               </li>
               <li className="list-inline-item px-2">
-                <a className="nav-link" onClick={() => alert("oi")}>
+                <a className="nav-link" href="/Entrega">
                   Entrega
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
