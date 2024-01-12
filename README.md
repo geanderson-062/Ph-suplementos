@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+<h1 align="center">PH Suplementos </h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <p style="margin-bottom: 0">•
+    <a href="#description">Description</a> •
+    <a href="#technologies">Technologies</a> •
+    <a href="#methodologies">Methodologies</a> •
+    <a href="#developers">Developers</a> •
+    <a href="#license">License</a> •
+  </p>
+  <p>•
+    <a href="#description">Descrição</a> •
+    <a href="#technologies">Tecnologias</a> •
+    <a href="#methodologies">Metodologia</a> •
+    <a href="#developers">Desenvolvedores</a> •
+    <a href="#license">Licença</a> •
+  </p>
+</div>
 
-## Available Scripts
+<div id="description">
 
-In the project directory, you can run:
+## 📋 Project/Projeto
 
-### `npm start`
+<details>
+  <summary markdown="span"><strong>&#x1F1FA;&#x1F1F8; English</strong></summary><br />
+  <div id="description" align="justify">
+    <p><strong>Ph Supplements, the exclusive online platform for entrepreneurs in the nutritional supplement industry, is designed to meet the specific demands of those who market products consumed by fitness enthusiasts.</strong><br>
+      <a href="https://ph-suplementos.vercel.app/" target="_blank"><strong>Click here</strong></a> to check out the final version of the project on your browser</p>
+  </div>
+</details>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<details>
+  <summary markdown="span"><strong>&#x1f1e7;&#x1f1f7; Português</strong></summary><br />
+  <div id="description" align="justify">
+    <p><strong>Ph Suplementos, a plataforma online exclusiva para empreendedores no ramo de suplementação alimentar, é projetada para atender às demandas específicas daqueles que comercializam produtos consumidos por entusiastas de academia. </strong><br>
+      <a href="https://ph-suplementos.vercel.app/" target="_blank"><strong>Clique aqui</strong></a> para conferir a versão final do projeto no seu navegador</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  </div>
+</details>
 
-### `npm test`
+</div>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<div id="technologies">
 
-### `npm run build`
+## 🧪 Technologies/Tecnologias
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  <ul>
+    <li>React</li>
+    <li>JavaScript</li>
+    <li>Styled Component</li>
+    <li>Bootstrap 5</li>
+    <li>Concurrently</li>
+    <li>Scrollreveal</li>
+    <li>ImagesLoaded</li>
+    <li>Git & Github</li>
+  </ul>
+</div>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<div id="methodologies">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📝 Methodologies/Metodologias
 
-### `npm run eject`
+  <ul>
+    <li>Mobile First</li>
+  </ul>
+<div>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<div id="developers">
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 👨‍💻 Developers/Desenvolvedores
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  <ul>
+    <li><a href="https://github.com/geanderson-062" rel="nofollow"><strong>Geanderson</strong></a> </li>
+    <li><a href="https://github.com/Wedgles97" rel="nofollow"><strong>Wedgles</strong></a> </li>
+  </ul>
+</div>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📜 License/Licença
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<div id="license">
+  <p>Este repositório está sob <strong>Licença MIT</strong>. Você pode ver o arquivo <a href="https://github.com/geanderson-062/Ph-suplementos/blob/master/LICENSE" rel="nofollow"><strong>LICENSE</strong></a> para mais detalhes.</p>
+</div>
